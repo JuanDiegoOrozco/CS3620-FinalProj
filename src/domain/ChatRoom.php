@@ -20,7 +20,7 @@ class ChatRoom
 
     public function SetName($nameGiven)
     {
-        $this->name = name;
+        $this->name = $nameGiven;
     }
 
     public function GetSubject()
@@ -45,14 +45,40 @@ class ChatRoom
 
     public function Leave($usersGiven)
     {
-        foreach ($this->users as $user)
-        {
-            if($usersGiven->GetEmail() === $user->GetEmail())
+        $var = 0;
+
+        if(count($this->users) == 1){
+            //$this->users = $this->users + array(null);
+            if($usersGiven->GetEmail() === $this->users[0]->GetEmail())
             {
-                unset($user);
+                unset($this->users[0]);
                 return true;
             }
+            else
+            {
+                return false;
+            }
+        }
+
+        foreach ($this->users as $user)
+        {
+            if(strcmp($usersGiven->GetEmail(),$user->GetEmail()) !== 0)
+            {
+                unset($this->users[$var]);
+                return true;
+            }
+            $var ++;
         }
         return false;
+    }
+
+    public function AddMessage($mess)
+    {
+        $this->messages[] = $mess;
+    }
+
+    public function GetMessages()
+    {
+        return $this->messages;
     }
 }
