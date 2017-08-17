@@ -124,7 +124,40 @@ class ChatRoomTest extends \Codeception\Test\Unit
         $varAfter = count($chRm->GetMembers());
 
         // Assert
-        $this->assertTrue(count($chRm->GetMembers()) == 0, "User was not removed, before count: " . $varBeforeCount . " before: ". $varBefore. " after: " . $varAfter . " removed: " . $removed);
+        $this->assertTrue(count($chRm->GetMembers()) == 0, "User was not removed, before count: " .
+            $varBeforeCount . " before: ". $varBefore. " after: " . $varAfter . " removed: " . $removed);
+    }
+
+    public function testChatRoomLeaveJoin()
+    {
+        // Arrange
+        $user = new App\domain\User();
+        $chRm = $this->chatRoom;
+        $user->SetAlias("Juan Orozco");
+        $user->SetEmail("juanorozco@gmail.com");
+
+        // Act
+        $varBeforeCount = count($chRm->GetMembers());
+        $chRm->Join($user);
+        $fUser = $chRm->GetMembers()[0];
+        $this->assertTrue($user === $fUser, "User was not found in Chat Room");
+        $this->assertEquals($fUser->GetAlias(),"Juan Orozco", "User was not found in Chat Room");
+        $this->assertEquals($fUser->GetEmail(), "juanorozco@gmail.com", "User was not found in the Chat Room");
+        $varBefore = count($chRm->GetMembers());
+        $removed = $chRm->Leave($user);
+        $varAfter = count($chRm->GetMembers());
+        $this->assertTrue(count($chRm->GetMembers()) == 0, "User was not removed, before count: " .
+            $varBeforeCount . " before: ". $varBefore. " after: " . $varAfter . " removed: " . $removed);
+        $chRm->Join($user);
+
+        // Assert
+        $this->assertTrue(count($chRm->GetMembers()) == 1,
+            "User did not rejoin the ChatRoom, Count: " . count($chRm->GetMembers()));
+        $fUser = $chRm->GetMembers()[0];
+        $this->assertTrue($user === $fUser, "User was not found in Chat Room");
+        $this->assertEquals($fUser->GetAlias(),"Juan Orozco", "User was not found in Chat Room");
+        $this->assertEquals($fUser->GetEmail(), "juanorozco@gmail.com", "User was not found in the Chat Room");
+
     }
 
     public function testChatRoomMultiLeave()
@@ -214,5 +247,82 @@ class ChatRoomTest extends \Codeception\Test\Unit
         $this->assertTrue(count($chRm->GetMembers()) == 0, "Users were not removed, before count: "
             . $varBeforeCount . " before: ". $varBefore. " after: " . $varAfter .
             " removed: " . ($removed and $removed2 and $removed3));
+    }
+
+    public function testChatRoomAddMessage()
+    {
+        // Arrange
+        $user = new App\domain\User();
+        $user->SetAlias("bob");
+        $chRm = $this->chatRoom;
+        $message = new App\domain\Message($user,"I like cheese");
+
+        // Act
+        $chRm->AddMessage($message);
+
+        // Assert
+        $this->assertTrue(count($chRm->GetMessages()) == 1, "Required number of messages not found");
+        $this->assertEquals($chRm->GetMessages()[0]->GetSender()->GetAlias(),"bob","The required sender not found");
+    }
+
+    public function testChatRoomMessageRemoveAllAddMessage()
+    {
+        // Arrange
+        $user = new App\domain\User();
+        $user->SetAlias("bob");
+        $chRm = $this->chatRoom;
+        $message = new App\domain\Message($user,"I like cheese");
+
+        // Act
+        $chRm->AddMessage($message);
+        $this->assertTrue(count($chRm->GetMessages()) == 1, "Required number of messages not found");
+        $this->assertEquals($chRm->GetMessages()[0]->GetSender()->GetAlias(),"bob",
+            "The required sender not found");
+        $chRm->RemoveAllMessages();
+        $this->assertTrue(count($chRm->GetMessages()) == 0, "Message was not removed");
+
+        // Assert
+        $chRm->AddMessage($message);
+        $this->assertTrue(count($chRm->GetMessages()) == 1, "Required number of messages not found");
+        $this->assertEquals($chRm->GetMessages()[0]->GetSender()->GetAlias(),"bob",
+            "The required sender not found");
+    }
+
+    public function testChatRoomAddMultiMessage()
+    {
+        // Arrange
+        $user = new App\domain\User();
+        $user->SetAlias("bob");
+        $chRm = $this->chatRoom;
+        $message = new App\domain\Message($user,"I like cheese");
+        $message2 = new App\domain\Message($user, "One Ton Stone");
+
+        // Act
+        $chRm->AddMessage($message);
+        $chRm->AddMessage($message2);
+
+        // Assert
+        $this->assertTrue(count($chRm->GetMessages()) == 2, "Required number of messages not found");
+        $this->assertEquals($chRm->GetMessages()[0]->GetSender()->GetAlias(),
+            "bob","The required sender not found");
+        $this->assertEquals($chRm->GetMessages()[1]->GetMessage(),"One Ton Stone","The message not found");
+    }
+
+    public function testChatRoomAddMultiMessageRemoveAll()
+    {
+        // Arrange
+        $user = new App\domain\User();
+        $user->SetAlias("bob");
+        $chRm = $this->chatRoom;
+        $message = new App\domain\Message($user,"I like cheese");
+        $message2 = new App\domain\Message($user, "One Ton Stone");
+        $chRm->AddMessage($message);
+        $chRm->AddMessage($message2);
+
+        // Act
+        $chRm->RemoveAllMessages();
+
+        // Assert
+        $this->assertTrue(count($chRm->GetMessages()) == 0, "All Messages were not removed");
     }
 }

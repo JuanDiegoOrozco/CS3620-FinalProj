@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee91589-aa02-47b8-bca8-13e92e6188e2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MDFiles/Chatrooms.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MDFiles/Join Chatroom.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tests/_output/failed" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/domain/ChatRoom.php" afterPath="$PROJECT_DIR$/src/domain/ChatRoom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/domain/Message.php" afterPath="$PROJECT_DIR$/src/domain/Message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/public/index.php" afterPath="$PROJECT_DIR$/src/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.php" afterPath="$PROJECT_DIR$/src/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/storage/Mysql.php" afterPath="$PROJECT_DIR$/src/storage/Mysql.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/storage/task/Jack.php" afterPath="$PROJECT_DIR$/src/storage/task/Jack.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/storage/task/PluginMySQL.php" afterPath="$PROJECT_DIR$/src/storage/task/PluginMySQL.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/unit/ChatRoomTest.php" afterPath="$PROJECT_DIR$/src/tests/unit/ChatRoomTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,51 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="UserTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/unit/UserTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1506">
-              <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codeception.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vendor/bin/codeception.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ChatRoom.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/ChatRoom.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatRoomTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tests/unit/ChatRoomTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1162">
-              <caret line="198" column="65" lean-forward="false" selection-start-line="198" selection-start-column="65" selection-end-line="198" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Redis.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/storage/Redis.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1850">
+              <caret line="50" column="69" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -79,8 +50,116 @@
       <file leaf-file-name="Mysql.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/storage/Mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="629">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="20" selection-end-column="3" />
+              <folding>
+                <element signature="e#161#217#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatRoomTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/unit/ChatRoomTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="269" column="18" lean-forward="false" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="219" column="5" lean-forward="true" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
+              <folding>
+                <marker date="1502940666521" expanded="true" signature="609:642" ph="SELECT * FRO... tasks" />
+                <marker date="1502940666521" expanded="true" signature="824:856" ph="SELECT * FRO... tasks" />
+                <marker date="1502940666521" expanded="true" signature="1090:1123" ph="SELECT * FRO... tasks" />
+                <marker date="1502940666521" expanded="true" signature="1604:1660" ph="INSERT INTO tasks... " />
+                <marker date="1502940666521" expanded="true" signature="2148:2178" ph="DELETE FROM " />
+                <marker date="1502940666521" expanded="true" signature="2746:2915" ph="..." />
+                <marker date="1502940666521" expanded="true" signature="3208:3231" ph="SELECT * FRO... chatrooms" />
+                <marker date="1502940666521" expanded="true" signature="3275:4619" ph="..." />
+                <marker date="1502940666521" expanded="true" signature="3319:4602" ph="{...}" />
+                <marker date="1502940666521" expanded="true" signature="3504:3623" ph="{...}" />
+                <marker date="1502940666521" expanded="true" signature="3661:4588" ph="{...}" />
+                <marker date="1502940666521" expanded="true" signature="3874:4120" ph="{...}" />
+                <marker date="1502940666521" expanded="true" signature="3874:4376" ph="{...}" />
+                <marker date="1502940666521" expanded="true" signature="3925:4120" ph="{...}" />
+                <marker date="1502940666521" expanded="true" signature="4149:4354" ph="{...}" />
+                <marker date="1502940666521" expanded="true" signature="4426:4568" ph="{...}" />
+                <marker date="1502940666521" expanded="true" signature="6015:6067" ph="SELECT COUNT... users" />
+                <marker date="1502940666521" expanded="true" signature="6015:6069" ph="SELECT COUNT... users" />
+                <marker date="1502940666521" expanded="true" signature="6015:6071" ph="SELECT COUNT... users" />
+                <marker date="1502940666521" expanded="true" signature="6015:6081" ph="SELECT COUNT... users" />
+                <marker date="1502940666521" expanded="true" signature="6015:6084" ph="SELECT COUNT... users" />
+                <marker date="1502940666521" expanded="true" signature="6015:6085" ph="SELECT COUNT... users" />
+                <marker date="1502940666521" expanded="true" signature="6015:7483" ph="SELECT COUNT... users" />
+                <marker date="1502940666521" expanded="true" signature="6015:7590" ph="SELECT COUNT... users" />
+                <marker date="1502940666521" expanded="true" signature="6108:6168" ph="SELECT userI... users" />
+                <marker date="1502940666521" expanded="true" signature="6108:6183" ph="SELECT userI... users" />
+                <marker date="1502940666521" expanded="true" signature="6211:6276" ph="SELECT chatr... chatrooms" />
+                <marker date="1502940666521" expanded="true" signature="6211:6278" ph="SELECT chatr... chatrooms" />
+                <marker date="1502940666521" expanded="true" signature="6211:6279" ph="SELECT chatr... chatrooms" />
+                <marker date="1502940666521" expanded="true" signature="6211:6288" ph="SELECT chatr... chatrooms" />
+                <marker date="1502940666521" expanded="true" signature="6211:6459" ph="SELECT chatr... chatrooms" />
+                <marker date="1502940666521" expanded="true" signature="6314:6423" ph="INSERT INTO chatroomdb.messages... " />
+                <marker date="1502940666521" expanded="true" signature="6795:6867" ph="INSERT INTO chatroomdb.users... " />
+                <marker date="1502940666521" expanded="true" signature="6795:6883" ph="INSERT INTO chatroomdb.users... " />
+                <marker date="1502940666521" expanded="true" signature="6795:6900" ph="INSERT INTO chatroomdb.users... " />
+                <marker date="1502940666521" expanded="true" signature="6795:6919" ph="INSERT INTO chatroomdb.users... " />
+                <marker date="1502940666521" expanded="true" signature="6950:7021" ph="UPDATE chatr... " />
+                <marker date="1502940666521" expanded="true" signature="6950:7022" ph="UPDATE chatr... " />
+                <marker date="1502940666521" expanded="true" signature="7266:7435" ph="SELECT m.mes... messages" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chatrooms.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MDFiles/Chatrooms.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="74">
+                <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Join Chatroom.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MDFiles/Join Chatroom.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="222">
+                <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taskbuilder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/taskbuilder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1221">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,18 +168,8 @@
       <file leaf-file-name="Message.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/Message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/unit/MessageTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1478">
-              <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+            <state relative-caret-position="1073">
+              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -109,8 +178,8 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-177">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="925">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -142,13 +211,19 @@
         <option value="$PROJECT_DIR$/src/vendor/codeception/codeception/codeception.yml" />
         <option value="$PROJECT_DIR$/src/composer.json" />
         <option value="$PROJECT_DIR$/src/vendor/codeception/codeception/composer.json" />
-        <option value="$PROJECT_DIR$/src/public/index.php" />
         <option value="$PROJECT_DIR$/src/tests/unit/UserTest.php" />
         <option value="$PROJECT_DIR$/src/domain/User.php" />
-        <option value="$PROJECT_DIR$/src/domain/Message.php" />
         <option value="$PROJECT_DIR$/src/tests/unit/MessageTest.php" />
         <option value="$PROJECT_DIR$/src/domain/ChatRoom.php" />
         <option value="$PROJECT_DIR$/src/tests/unit/ChatRoomTest.php" />
+        <option value="$PROJECT_DIR$/src/storage/task/Jack.php" />
+        <option value="$PROJECT_DIR$/src/storage/task/PluginMySQL.php" />
+        <option value="$PROJECT_DIR$/src/storage/Mysql.php" />
+        <option value="$PROJECT_DIR$/src/domain/Message.php" />
+        <option value="$PROJECT_DIR$/src/public/index.php" />
+        <option value="$PROJECT_DIR$/src/routes.php" />
+        <option value="$PROJECT_DIR$/src/MDFiles/Chatrooms.md" />
+        <option value="$PROJECT_DIR$/src/MDFiles/Join Chatroom.md" />
       </list>
     </option>
   </component>
@@ -165,8 +240,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-12" />
-    <option name="width" value="3019" />
-    <option name="height" value="2699" />
+    <option name="y" value="-12" />
+    <option name="width" value="3864" />
+    <option name="height" value="2114" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -183,8 +259,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,86 +284,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS3620-FinalProj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS3620-FinalProj" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS3620-FinalProj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS3620-FinalProj" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS3620-FinalProj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS3620-FinalProj" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS3620-FinalProj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS3620-FinalProj" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unit" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,6 +337,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="MDFiles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620-FinalProj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620-FinalProj" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -351,18 +365,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php5.6.25/zend_ext/php_xdebug-2.4.1-5.6-vc11-x86_64.dll" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="settings.editor.splitter.proportion" value="0.34809768" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\CS3620-FinalProj\src\domain" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\CS3620-FinalProj\src\vendor\bin" />
       <recent name="C:\wamp64\www\CS3620-FinalProj\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\CS3620-FinalProj\src\domain" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -487,6 +501,9 @@
       <workItem from="1502326148341" duration="2849000" />
       <workItem from="1502477140575" duration="11924000" />
       <workItem from="1502563858158" duration="26804000" />
+      <workItem from="1502645120061" duration="15106000" />
+      <workItem from="1502674185107" duration="6617000" />
+      <workItem from="1502925037702" duration="17603000" />
     </task>
     <servers />
   </component>
@@ -523,7 +540,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65875000" />
+    <option name="totallyTimeSpent" value="105201000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,9 +552,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="0" width="3019" height="2699" extended-state="0" />
+    <frame x="-12" y="-12" width="3864" height="2114" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1922434" sideWeight="0.49802595" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14973958" sideWeight="0.49802595" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -569,28 +587,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/taskbuilder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -619,7 +615,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#161#217#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -681,7 +679,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#161#217#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -713,7 +713,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#161#217#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -744,20 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
           <caret line="264" column="6" lean-forward="false" selection-start-line="264" selection-start-column="6" selection-end-line="264" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/storage/task/Jack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/storage/task/PluginMySQL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -826,14 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/taskbuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1551">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/codeception.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -855,47 +835,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vendor/bin/codeception.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="987">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/storage/Redis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/storage/Mysql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -913,41 +860,166 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/unit/UserTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1506">
-          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="2773">
+          <caret line="59" column="34" lean-forward="false" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/unit/MessageTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1478">
-          <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+        <state relative-caret-position="3854">
+          <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storage/task/Jack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storage/task/PluginMySQL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/taskbuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1221">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storage/Mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="e#161#217#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/ChatRoom.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="1850">
+          <caret line="50" column="69" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/unit/ChatRoomTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1162">
-          <caret line="198" column="65" lean-forward="false" selection-start-line="198" selection-start-column="65" selection-end-line="198" selection-end-column="65" />
+        <state relative-caret-position="37">
+          <caret line="269" column="18" lean-forward="false" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="219" column="5" lean-forward="true" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
+          <folding>
+            <marker date="1502940666521" expanded="true" signature="609:642" ph="SELECT * FRO... tasks" />
+            <marker date="1502940666521" expanded="true" signature="824:856" ph="SELECT * FRO... tasks" />
+            <marker date="1502940666521" expanded="true" signature="1090:1123" ph="SELECT * FRO... tasks" />
+            <marker date="1502940666521" expanded="true" signature="1604:1660" ph="INSERT INTO tasks... " />
+            <marker date="1502940666521" expanded="true" signature="2148:2178" ph="DELETE FROM " />
+            <marker date="1502940666521" expanded="true" signature="2746:2915" ph="..." />
+            <marker date="1502940666521" expanded="true" signature="3208:3231" ph="SELECT * FRO... chatrooms" />
+            <marker date="1502940666521" expanded="true" signature="3275:4619" ph="..." />
+            <marker date="1502940666521" expanded="true" signature="3319:4602" ph="{...}" />
+            <marker date="1502940666521" expanded="true" signature="3504:3623" ph="{...}" />
+            <marker date="1502940666521" expanded="true" signature="3661:4588" ph="{...}" />
+            <marker date="1502940666521" expanded="true" signature="3874:4120" ph="{...}" />
+            <marker date="1502940666521" expanded="true" signature="3874:4376" ph="{...}" />
+            <marker date="1502940666521" expanded="true" signature="3925:4120" ph="{...}" />
+            <marker date="1502940666521" expanded="true" signature="4149:4354" ph="{...}" />
+            <marker date="1502940666521" expanded="true" signature="4426:4568" ph="{...}" />
+            <marker date="1502940666521" expanded="true" signature="6015:6067" ph="SELECT COUNT... users" />
+            <marker date="1502940666521" expanded="true" signature="6015:6069" ph="SELECT COUNT... users" />
+            <marker date="1502940666521" expanded="true" signature="6015:6071" ph="SELECT COUNT... users" />
+            <marker date="1502940666521" expanded="true" signature="6015:6081" ph="SELECT COUNT... users" />
+            <marker date="1502940666521" expanded="true" signature="6015:6084" ph="SELECT COUNT... users" />
+            <marker date="1502940666521" expanded="true" signature="6015:6085" ph="SELECT COUNT... users" />
+            <marker date="1502940666521" expanded="true" signature="6015:7483" ph="SELECT COUNT... users" />
+            <marker date="1502940666521" expanded="true" signature="6015:7590" ph="SELECT COUNT... users" />
+            <marker date="1502940666521" expanded="true" signature="6108:6168" ph="SELECT userI... users" />
+            <marker date="1502940666521" expanded="true" signature="6108:6183" ph="SELECT userI... users" />
+            <marker date="1502940666521" expanded="true" signature="6211:6276" ph="SELECT chatr... chatrooms" />
+            <marker date="1502940666521" expanded="true" signature="6211:6278" ph="SELECT chatr... chatrooms" />
+            <marker date="1502940666521" expanded="true" signature="6211:6279" ph="SELECT chatr... chatrooms" />
+            <marker date="1502940666521" expanded="true" signature="6211:6288" ph="SELECT chatr... chatrooms" />
+            <marker date="1502940666521" expanded="true" signature="6211:6459" ph="SELECT chatr... chatrooms" />
+            <marker date="1502940666521" expanded="true" signature="6314:6423" ph="INSERT INTO chatroomdb.messages... " />
+            <marker date="1502940666521" expanded="true" signature="6795:6867" ph="INSERT INTO chatroomdb.users... " />
+            <marker date="1502940666521" expanded="true" signature="6795:6883" ph="INSERT INTO chatroomdb.users... " />
+            <marker date="1502940666521" expanded="true" signature="6795:6900" ph="INSERT INTO chatroomdb.users... " />
+            <marker date="1502940666521" expanded="true" signature="6795:6919" ph="INSERT INTO chatroomdb.users... " />
+            <marker date="1502940666521" expanded="true" signature="6950:7021" ph="UPDATE chatr... " />
+            <marker date="1502940666521" expanded="true" signature="6950:7022" ph="UPDATE chatr... " />
+            <marker date="1502940666521" expanded="true" signature="7266:7435" ph="SELECT m.mes... messages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MDFiles/Chatrooms.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="74">
+            <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MDFiles/Join Chatroom.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="222">
+            <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

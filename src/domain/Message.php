@@ -25,6 +25,11 @@ Class Message
         return $this->sender;// Returns a User Object
     }
 
+    public function SetTimeDate($dateTime)
+    {
+        $this->timeDate = $dateTime;
+    }
+
     public function GetTimeDate()
     {
         return $this->timeDate;

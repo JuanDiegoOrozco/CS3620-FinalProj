@@ -1,4 +1,6 @@
 <?php
+namespace Storage;
+require __DIR__ . '/../storage/Mysql.php';
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -21,3 +23,5 @@ $app->get('/hello/{name}', function (Request $req, Response $resp) {
 require __DIR__ . '/../routes.php';
 
 $app->run();
+
+$connection = ConnectToMySQL();

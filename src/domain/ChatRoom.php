@@ -45,29 +45,16 @@ class ChatRoom
 
     public function Leave($usersGiven)
     {
-        $var = 0;
 
-        if(count($this->users) == 1){
-            //$this->users = $this->users + array(null);
-            if($usersGiven->GetEmail() === $this->users[0]->GetEmail())
-            {
-                unset($this->users[0]);
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-
-        foreach ($this->users as $user)
+        foreach ($this->users as $key=>$user)
         {
-            if(strcmp($usersGiven->GetEmail(),$user->GetEmail()) !== 0)
+            if(strcmp($usersGiven->GetEmail(),$user->GetEmail()) == 0)
             {
-                unset($this->users[$var]);
+                unset($this->users[$key]);
+                $usersTemp = array_values($this->users);
+                $this->users = $usersTemp;// Re-index array
                 return true;
             }
-            $var ++;
         }
         return false;
     }
@@ -80,5 +67,11 @@ class ChatRoom
     public function GetMessages()
     {
         return $this->messages;
+    }
+
+    public function RemoveAllMessages()
+    {
+        unset($this->messages);
+        $this->messages = array();
     }
 }
